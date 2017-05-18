@@ -1,4 +1,4 @@
-	var sayMyName = function (name){
+	var sayMyName = function (name) {
 		alert("My name is" + name);
 	}
 
@@ -15,11 +15,11 @@
 	},
 
 	fly: function () {
-		alert('fly');
+		alert("fly");
 	},
 
 	switchCar: function (isOn) {
-		console.log('turn car' + isOn)
+		console.log("turn car" + isOn)
 
 		if (isOn == true) {
 			this.isTurnedOn = true;
@@ -30,4 +30,4 @@
 	}
 };	
 
-console.log('hello there friendz!');
+console.log("hello there friends!");
